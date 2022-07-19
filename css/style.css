@@ -67,6 +67,7 @@ section {
 }
 .btn-active {
   background-color: var(--color-secondery);
+  color: var(--color-white);
 }
 .btn-small {
   font-family: "Poppins", sans-serif;
@@ -79,6 +80,8 @@ section {
   border: 1px solid var(--color-border-primary);
   border-radius: 5px;
   display: inline-block;
+  text-decoration: none;
+  transition: 0.4s all ease;
 }
 /* btn css end */
 
@@ -144,15 +147,87 @@ section {
 /* banner part end */
 
 /* live match part start */
-.live_match {
-}
+
 .live_match_content {
+  display: flex;
+  justify-content: space-between;
 }
 .live_match_left {
+  width: 300px;
+  max-height: 276px;
+  padding: 25px;
+  box-sizing: border-box;
+  background-color: var(--color-primary);
+  margin-right: 25px;
+  border-radius: 10px;
 }
 .live_btn {
+  display: block;
+  width: 100%;
+  padding: 16px 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  transition: 0.4s all ease;
+}
+.live_btn:hover {
+  background-color: var(--color-hover-red);
+  color: var(--color-white);
+}
+.live_btn:last-child {
+  margin-bottom: 0;
 }
 .live_match_right {
+  box-sizing: border-box;
+  width: 75%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px 20px;
+}
+.live_match_item {
+  border: 1px solid var(--color-footer-link);
+  border-radius: 10px;
+}
+.live_match_item img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.match_item_bottom {
+  padding: 20px;
+}
+.match_item_bottom h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 600;
+}
+.icon_bpx {
+  display: flex;
+}
+.icon_bpx p {
+  color: var(--color-footer-link);
+  display: flex;
+  align-items: center;
+}
+.icon_bpx p span {
+  margin-left: 15px;
+}
+.icon_2 {
+  margin-left: 50px;
+}
+.btn-small:hover {
+  background-color: var(--color-secondery);
+  border-color: var(--color-secondery);
+  color: var(--color-white);
+}
+.btn_for_md {
+  padding: 16px 35px;
+  margin: 0 auto;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 40px;
+  display: none;
 }
 /* live match part end */
 
