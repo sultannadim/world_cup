@@ -8,6 +8,7 @@
   --color-footer-link: #b9b9b9;
   --color-white: #ffffff;
   --color-hover-white: #ffffff;
+  --color-footer: #1e272e;
 }
 /* common css start */
 * {
@@ -230,5 +231,70 @@ section {
   display: none;
 }
 /* live match part end */
+
+/* footer part start */
+.footer {
+  padding: 60px 0;
+  background-color: var(--color-footer);
+}
+hr {
+  width: 90%;
+  margin: 40px auto;
+}
+.footer_top_text {
+  text-align: center;
+}
+.footer_top_text h3 {
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 600;
+  color: var(--color-white);
+}
+.footer_menu,
+.social_link {
+  text-align: center;
+}
+.footer_menu p a,
+.social_link p a {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-footer-link);
+  text-decoration: none;
+  display: inline-block;
+  margin: 15px;
+}
+/* footer part end */
+/* =================================== */
+/* upcomming page start */
+.upcomming_match {
+  padding: 40px 25px;
+}
+.live_match_item.upcomming_match img {
+  border-radius: 0;
+}
+.vs_match p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+.vs_bottom {
+  margin-top: 20px;
+  padding: 0;
+}
+.vs_bottom h3,
+.vs_bottom p {
+  text-align: center;
+}
+.vs_bottom p {
+  color: var(--color-footer-link);
+}
+
+/* upcomming page end */
+/* =================================== */
 
 /* main css part end */ ;
